@@ -7,7 +7,6 @@ $(document).ready(function() {
     let inputThing4 = $("input#thing4").val();
 
     let favoriteThings = [inputThing1, inputThing2, inputThing3, inputThing4]
-    
     favoriteThings.pop();
 
     let music = ["funk", "classical", "art pop"]
@@ -15,10 +14,8 @@ $(document).ready(function() {
     favoriteThings.push(music[0]);
     favoriteThings.push(music[1]);
     favoriteThings.push(music[2]);
-
     favoriteThings[0] = inputThing2
     favoriteThings[1] = inputThing1
-
     $(".ft1").text(favoriteThings[0]);
     $(".ft2").text(favoriteThings[1]);
     $(".ft3").text(favoriteThings[2]);
